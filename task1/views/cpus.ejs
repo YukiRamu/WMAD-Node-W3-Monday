@@ -1,0 +1,16 @@
+<%- include("index", { title: "API Route Practice" , subtitle:"CPU" }) %>
+
+  <div>
+    <p>The number of CPU core is <%= cpus.length %></p>
+    <ul>
+      <% for (let i=0; i <cpus.length ; i++) { %>
+        <h3>Core<%= i+1 %> : <%= cpus[i].model %></h3>
+        <li class="core<%= i+1 %>">Speed : <%= cpus[i].speed %></li>
+        <li class="core<%= i+1 %>">Time in user mode : <%= Math.round(cpus[i].times.user/60000) %> mins</li>
+        <li class="core<%= i+1 %>">Time in nice mode : <%= Math.round(cpus[i].times.nice/60000) %> mins</li>
+        <li class="core<%= i+1 %>">Time in sys mode : <%= Math.round(cpus[i].times.sys/60000) %> mins</li>
+        <li class="core<%= i+1 %>">Time in idle mode : <%= Math.round(cpus[i].times.idle/60000) %> mins</li>
+        <li class="core<%= i+1 %>">Time in irq mode : <%= Math.round(cpus[i].times.irq/60000) %> mins</li>
+        <% } %>
+    </ul>
+  </div>

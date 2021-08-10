@@ -1,0 +1,7 @@
+<%- include("index", { title: "API Route Practice" , subtitle:"Disk Space" }) %>
+
+<div>
+  <p>Disk Path is : <%= space.diskPath %> </p>
+  <p>Total Disk Space is : <%= Math.round(space.size / 1024 / 1024 /1000) %> GB</p>
+  <p>Free Disk Space is : <%= Math.round(space.free / 1024 / 1024 / 1000) %> GB</p>
+</div>

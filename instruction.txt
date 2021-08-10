@@ -1,0 +1,113 @@
+/* Task1
+Create a Node JS Express or HTTP Application that exposes API routes for the following
+
+Computer Architecture
+Computer CPU's
+Computer RAM (total and available)
+Computer Disk Space (total and available)
+Computer Hostname
+Computer IP Address
+
+http://localhost:port/api/arch
+----> shows architecture
+http://localhost:port/api/cpus
+ ----> shows cpus
+http://localhost:port/api/ram
+----> shows ram
+http://localhost:port/api/diskspace
+----> shows disk space
+http://localhost:port/api/hostname
+----> shows hostname
+http://localhost:port/api/ipaddress
+ ----> shows ip address
+
+ */
+
+/* Task2
+Create a Node JS Application that accepts command line parameters thus that a user can check their;
+
+Computer Architecture
+Compute CPU's
+Computer RAM (total and available)
+Computer Disk Space (total and available)
+Computer Hostname
+Computer IP Address
+
+I should be able to call the application like this
+
+node yourapp.js -arch ----> shows architecture
+node yourapp.js -cpu ----> shows cpus
+
+node yourapp.js -ram----> shows ram
+
+node yourapp.js -hdd----> shows disk space
+
+node yourapp.js -hostname ----> shows hostname
+
+node yourapp.js -ip ----> shows ip address
+ */
+
+/* Task3
+Create a Server that hosts just HTTP Sites and upload it to github with a demo on it's usage
+ */
+
+/* Task4
+Create a Server that hosts just JSON Sites and upload it to github with a demo on it's usage
+ */
+
+/* Task5
+Validate a password with the following format:
+Password at least 6 digits.
+At least one lowercase
+At least one uppercase
+At least one special character from @ # $ % ^ & *
+ */
+
+/* Task6
+create a file
+write a file
+append to a file
+rename a file
+delete a file
+list files in current directly
+copy a file to another location
+move a file to another location
+get info on a file (such as its size_
+I should run your application like this
+
+node yourapp --createFile "somefile.txt"
+and your app will create an empty file called somefile.txt
+
+node yourapp --writeFile "filename" "data"
+and your app will write to the filename, some data, and if there is any existing data, it will be overwritten 
+
+node yourapp --appendFile "filename" "data"
+and your app will write to the filename, some data, and if there is any existing data, it will be appended to the end
+
+node yourapp --renameFile "fromFile" "toFile"
+and your app will rename a file, fromFile to toFile
+
+node yourapp --deleteFile
+and your app will delete the file, but first ask the user if that's what she/she really wants to do?
+* you should also check for additional -y, if it exists, don't ask the user the question
+
+node yourapp --listFiles "someDirectory"
+list files in a directory
+
+node yourapp --copyFile "thisfile" "tothisfile"
+copy a file from thisfile to thisfile
+
+node yourapp --movefile "thisfile" "tothisfile"
+
+move a file from thisfile to thatfile
+
+node yourapp --size "somefile"
+get size of the file (in bytes) 
+
+node yourapp --view "somefile"
+view the contents of the file on the screen
+
+node yourapp --view "somefile" --pause "22"
+
+where 22 is a number of lines, pause the viewing after that number of lines so that the user has a chance to see the text, then continue on
+ */
