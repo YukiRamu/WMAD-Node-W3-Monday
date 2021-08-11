@@ -75,7 +75,7 @@ move a file to another location
 get info on a file (such as its size_
 I should run your application like this
 
-node yourapp --createFile "somefile.txt"
+ node yourapp --createFile "somefile.txt"
 and your app will create an empty file called somefile.txt
 
 node yourapp --writeFile "filename" "data"
