@@ -87,7 +87,7 @@ and your app will write to the filename, some data, and if there is any existing
 node yourapp --renameFile "fromFile" "toFile"
 and your app will rename a file, fromFile to toFile
 
-node yourapp --deleteFile
+node yourapp --deleteFile "filename"
 and your app will delete the file, but first ask the user if that's what she/she really wants to do?
 * you should also check for additional -y, if it exists, don't ask the user the question
 
