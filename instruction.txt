@@ -97,7 +97,7 @@ list files in a directory
 node yourapp --copyFile "thisfile" "tothisfile"
 copy a file from thisfile to thisfile
 
-node yourapp --movefile "thisfile" "tothisfile"
+node yourapp --moveFile "thisfile" "tothisfile"
 
 move a file from thisfile to thatfile
 
